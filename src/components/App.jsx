@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
-import getFilteredData from './Helpers/getFilteredData';
+import getFilteredData from '../Helpers/getFilteredData';
 import { StyledDiv } from './App.styled';
 
 export class App extends Component {
